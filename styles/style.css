@@ -185,6 +185,7 @@
 
   transition: border-color 0.3s ease;
 }
+
 /* SVG */
 .like-icon {
   display: block;
@@ -381,6 +382,7 @@
 .like-icon.is-liked .sparks {
   opacity: 1;
   transition: opacity 0.25s linear 0.08s;
+  animation: sparks-show 0.3s ease-in 0.3s 1;
 }
 
 .like-icon.is-liked {
@@ -390,10 +392,6 @@
 
 .like-icon.is-liked .heart {
   animation: heart-scale 0.3s ease-in 0.1s 1 alternate;
-}
-
-.like-icon.is-liked .sparks {
-  animation: sparks-show 0.3s ease-in 0.3s 1;
 }
 
 @media (min-width: 376px) {
@@ -409,7 +407,6 @@
 
   .save-button {
     flex-direction: row;
-    width: fit-content;
     width: 335px;
     min-height: 55px;
     margin-top: 54px;
