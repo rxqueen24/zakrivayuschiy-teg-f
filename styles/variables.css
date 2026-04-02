@@ -28,7 +28,6 @@
     /* Плавное затемнение сверху вниз */
     linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 
-  --container-width: clamp(375px, 100vw, 700px);
   --main-color: #000;
   --background-color: #fff;
   --label-stroke-color: #fff;
