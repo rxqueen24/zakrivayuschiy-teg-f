@@ -296,6 +296,8 @@
 .button__icon {
   flex-shrink: 0;
   color: var(--button-text-color);
+  width: 28px;
+  height: 28px;
 }
 
 .dialog {
