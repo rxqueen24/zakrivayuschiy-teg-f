@@ -26,7 +26,7 @@
 .header {
   width: 100%;
   max-width: 700px;
-  padding-block: 80px; /*вместо min-height*/
+  padding-block: 120px; /*вместо min-height*/
 
   margin-left: auto;
   margin-right: auto;
@@ -169,19 +169,19 @@
   font-family: var(--font-main), sans-serif;
   font-variation-settings: "wght" 410;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 20.92px;
 }
 
 .card__buttons {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 8px;
+  gap: 5px;
 }
 
 /* Кнопка с сердцем */
 .card__icon-button {
-  width: 38px;
+  width: 42px;
   height: 38px;
   background: transparent;
   border: 2px solid transparent;
@@ -295,7 +295,7 @@
 
 .button__icon {
   flex-shrink: 0;
-  color: black;
+  color: var(--button-text-color);
 }
 
 .dialog {
@@ -308,8 +308,8 @@
   flex-direction: column;
   justify-content: center;
   gap: 30px;
-  padding: 30px 40px;
-  width: clamp(340px, 90vw, 350px);
+  padding: 30px 38px;
+  width: clamp(342px, 90vw, 352px);
   min-height: 190px;
 }
 
